@@ -1,0 +1,9 @@
+java:
+    yum install java-1.8.0-openjdk.x86_64
+docker:
+    https://docs.docker.com/engine/installation/linux/docker-ce/centos/#install-using-the-convenience-script
+    Install using the repository
+docker-compose:
+    sudo curl -L https://github.com/docker/compose/releases/download/1.17.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+jenkins:
+    

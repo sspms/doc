@@ -1,0 +1,1 @@
+docker run -u root -d -p 8081:8080 -v /var/lib/shanshui/deploy:/var/deploy -v /usr/share/apache-maven-3.5.2:/usr/maven -v /var/lib/shanshui/jenkins:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock registry.docker-cn.com/jenkins/jenkins:lts
